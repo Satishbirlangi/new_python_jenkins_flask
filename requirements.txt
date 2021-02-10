@@ -2,3 +2,5 @@ flask
 flask_sqlalchemy
 marshmallow
 marshallow_sqlalchemy
+pymysql
+cryptography
