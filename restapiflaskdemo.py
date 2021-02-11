@@ -63,7 +63,7 @@ class ProductSchema(ModelSchema):
     price=fields.Number(required=True)
     imgUrl=fields.String(required=True)
 
-@app.route('/products',methods=['POST'])       
+@app.route('/ibm',methods=['POST'])       
 def createProduct():
     data= request.get_json()        #get json data
     product_schema =ProductSchema()
