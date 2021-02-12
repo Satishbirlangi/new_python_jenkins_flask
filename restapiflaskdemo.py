@@ -4,7 +4,7 @@ Created on Wed Jan 27 10:51:33 2021
 
 @author: SATISH BIRLANGI
 app.put('',())
-ala puram
+ala puram 
 """
 
 import json
@@ -64,7 +64,7 @@ class ProductSchema(ModelSchema):
     price=fields.Number(required=True)
     imgUrl=fields.String(required=True)
 
-@app.route('/ibmi',methods=['POST'])       
+@app.route('/ibmia',methods=['POST'])       
 def createProduct():
     data= request.get_json()        #get json data
     product_schema =ProductSchema()
